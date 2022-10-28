@@ -1,0 +1,144 @@
+:root{
+--color-prinary-soft-orange: hsl(35, 77%, 62%);
+--color-prinary-soft-red: hsl(5, 85%, 63%);
+--color-neutral-off-white: hsl(36, 100%, 99%);
+--color-neutral-grayish-blue: hsl(233, 8%, 79%);
+--color-neutral-dark-grayish-blue: hsl(236, 13%, 42%);
+--color-neutral-very-dark-blue: hsl(240, 100%, 5%);
+}
+
+
+
+html{
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+}
+
+/*typography*/
+h1{
+    font-weight: 800;
+    font-size: 5rem;
+    margin: 2rem 0;
+}
+
+p{
+    font-size: 1.5rem;
+    color: var(--color-neutral-dark-grayish-blue);
+    line-height: 2.5rem;
+}
+
+body{
+display: grid;
+justify-content: center;
+align-items: center;
+grid
+}
+
+.container{
+    display: grid;
+    padding: 1rem;
+    max-width: 375px;
+    
+}
+
+nav{
+    height: 60px;
+    margin: 0 0 1rem 0;
+}
+
+.logo{
+    float: left;
+    margin: 1rem 0.5rem 0 0;
+    width: 60px;
+   
+}
+
+.nav-menu{
+    float: right;
+    margin: 2rem 0.5rem 0 0;
+}
+
+.spotlight{
+    max-width: 100%;
+}
+
+.btn{
+height: 50px;
+padding: 0 4rem;
+border: 0;
+letter-spacing: 0.5rem;
+font-weight: 700;
+margin: 0 0 7rem 0;
+}
+
+.btn__primary{
+    background: var(--color-prinary-soft-red);   
+    color: var(--color-neutral-off-white);
+}
+
+.btn__primary:hover{
+    background: var(--color-neutral-very-dark-blue);
+}
+
+
+/* Highlights */
+.highlights{
+    max-width: 360px;
+    background: var(--color-neutral-very-dark-blue);
+    padding: 2rem;
+    margin-bottom: 4rem;
+}
+
+.highlights-header{
+    color: var(--color-prinary-soft-orange);
+}
+
+.highlights-card{
+margin: 5rem 0 0 0;
+color: var(--color-neutral-off-white);
+font-weight: 900;
+font-size: 2.2rem;
+}
+
+.highlights-card:hover{
+    color: var(--color-prinary-soft-orange);
+}
+
+.highlights-card--text{
+    font-size: 1.7rem;
+ 
+}
+
+.line{
+    margin-top: 4rem;
+}
+
+.special{
+    display: flex;margin: 1rem;
+}
+.special-image{
+    max-width:130px;
+    max-height: 140px;
+}
+
+.special-content{
+margin-left: 2.5rem;
+}
+
+.special-number{
+    color: var(--color-neutral-grayish-blue);
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.special-heading{
+    color: var(--color-neutral-very-dark-blue);
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.special-heading:hover{
+    color: var(--color-prinary-soft-red);
+}
